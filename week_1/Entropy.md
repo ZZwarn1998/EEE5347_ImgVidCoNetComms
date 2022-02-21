@@ -28,7 +28,7 @@
 
 &emsp;**条件熵**则为  
 
-<center>$$H(X|Y)=-\sum_{x\in \mathcal{X}}{\sum_{y\in \mathcal{Y}}{p(x,y)\cdot log_2{p(y|x)}}}$$</center>  
+<center>$$H(X|Y)=-\sum_{x\in \mathcal{X}}{\sum_{y\in \mathcal{Y}}{p(x,y)\cdot log_2{p(x|y)}}}$$</center>  
 
 &emsp;值得一提的是，  
 
@@ -48,7 +48,7 @@
 
 下面的Venn图表示几个熵之间的关系，
 
-&emsp;下面的Venn图表示$$H(X,Y)​$$，$$H(X|Y)​$$，$$H(Y|X)​$$，$$H(X)​$$，$$H(Y)​$$，$$I(X,Y)​$$之间的关系，
+&emsp;下面的Venn图表示$H(X,Y)，H(X|Y)，H(Y|X)，H(X)，H(Y)，I(X,Y)​$之间的关系，
 
 <center><img src="./image/Venn.png" height="50%" width="50%"></center>
 
