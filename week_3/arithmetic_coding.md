@@ -12,7 +12,7 @@
 | :----: | :---------: |
 |   a    |     0.4     |
 |   b    |     0.5     |
-|  **EOF**   |     0.1     |  
+|  **EOF**   |     0.1     |
 &emsp;假设我们有符号串序列```bbbEOF```，接下来我们利用Arithmetic coding的方法来为其设计对应的二进制序列。
 
 <center><img src=".\image\subdivide.png"></cenetr>  
