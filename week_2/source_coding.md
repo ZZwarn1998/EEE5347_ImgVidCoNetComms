@@ -51,6 +51,6 @@ $$
 
 ## 2.5 Huffman Codes  
 
-&emsp;霍夫曼编码的执行的思路就是依据每个codeword的可能性由高到低进行排序，每轮选择可能性最高的和可能性最低的codeword进行合并，并且标记合并的两个枝干，上面的枝干为0，下面的枝干为1，知道所有的codeword被合并。
+&emsp;霍夫曼编码的执行的思路就是依据每个codeword的可能性由高到低进行排序，每轮选择可能性最低的两个codeword进行合并，并且标记合并的两个枝干，上面的枝干为0，下面的枝干为1，直到所有的codeword被合并。
 
 <center><img src=".\image\Huffman_codes.png" height="50%" width="50%"/></center>
