@@ -84,5 +84,5 @@
 
 + 对于任意两个随机变量$X$与$Y$，他们的互信息为$I(X,Y)\ge0$。  
 
-  ***Note***：如果想要证明，从$I(X,Y)=-\sum_{x\in X}{\sum_{y \in Y}{p(x,y)log_2{\frac {p(x)p(y)}{p(x,y)}}}}$ 出发直接套用杰森不等式，化简可以得到$I(X,Y)\ge-log_2{1}=0$。
+  ***Note***：如果想要证明，从$I(X,Y)=-\sum_{x\in X}{\sum_{y \in Y}{p(x,y)log_2{\frac {p(x)p(y)}{p(x,y)}}}}​$ 出发直接套用杰森不等式，化简可以得到$I(X,Y)\ge-log_2{1}=0​$。
 
