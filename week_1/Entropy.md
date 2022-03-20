@@ -1,6 +1,6 @@
-# 1 Entropy
+# Entropy
 
-## 1.1 熵（Entropy）
+## 熵（Entropy）
 
 &emsp;假设我们有离散随机变量$X$，它的字母表为$\mathcal{X}$ ，它的信息熵为$H(X)$ ，那么有**熵**的定义公式  
 
@@ -20,7 +20,7 @@
 
 <center><img src=".\image\h(p)_vs_p.png" height="50%" width="50%"></center>
 
-## 1.2 联合熵（Joint Entropy）与条件熵（Conditional Entropy)
+##  联合熵（Joint Entropy）与条件熵（Conditional Entropy)
 
 &emsp;**联合熵**：假定有一对随机变量$(X,Y)$有一个联合分布（joint distribution）$p(x,y)$，那么联合熵为   
 
@@ -52,7 +52,7 @@
 
 <center><img src="./image/Venn.png" height="50%" width="50%"></center>
 
-## 1.3  多随机变量的联合熵
+##  多随机变量的联合熵
 
 &emsp;**多随机变量联合熵**定义为，
 
@@ -64,7 +64,7 @@
 
 
 
-## 1.4 熵与互信息的性质
+##  熵与互信息的性质
 
 &emsp;**杰森不等式**（Jenson's inequality）:如果一个函数$f(x)$在区间$(a,b)$是凸函数，对于$x_1,x_2,...,x_n\in(a,b)$，我们有  
 

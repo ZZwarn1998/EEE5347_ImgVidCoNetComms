@@ -1,6 +1,6 @@
-# 3 Arithmetic coding
+# Arithmetic coding
 
-## 3.1 算法流程
+## 算法流程
 
 1. 将当前间隔$[L,H)$初始化为$[0,1)$;  
 2. 对于文件中的所有符号：

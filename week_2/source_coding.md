@@ -1,6 +1,6 @@
-# 2 Source coding
+# Source coding
 
-## 2.1 Source code
+## Source code
 
 &emsp;***codeword***:字母到二进制字符串的映射。  
 
@@ -17,7 +17,7 @@ $$
 L(C)=\sum_{x\in\mathcal{X}}{p(x)l(x)}
 $$
 
-## 2.2 Prefix codes
+## Prefix codes
 
 &emsp;***非奇***（non-singular）:任何一个字母表中的符号的映射都是不同的。
 
@@ -31,7 +31,7 @@ $$
 
 <center><img src=".\image\prefix_decoding.png" height="50%" weight="50%"\></center>
 
-## 2.3 Kraft Inequality
+## Kraft Inequality
 
 &emsp;对于任何具有$N$个codeword的前缀编码，它的编码长度$l_1,l_2,...,l_N$一定符合下述不等式，
 
@@ -49,7 +49,7 @@ $$
 
 &emsp;***证明思路***：将不等式转换为$L(C)-H(X)\ge0$，然后带入$L(C)=\sum_{i=1}^{N}{p_il_i}$，$H(X)=-\sum_{i=1}^{N}{p_ilog_2{p_i}}$，合并两个式子，接着使用Jensen Inequality得到最终的结果。  
 
-## 2.5 Huffman Codes  
+## Huffman Codes  
 
 &emsp;霍夫曼编码的执行的思路就是依据每个codeword的可能性由高到低进行排序，每轮选择可能性最低的两个codeword进行合并，并且标记合并的两个枝干，上面的枝干为0，下面的枝干为1，直到所有的codeword被合并。
 
