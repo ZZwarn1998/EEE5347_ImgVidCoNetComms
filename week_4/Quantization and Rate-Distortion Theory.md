@@ -68,7 +68,7 @@
 
 ## 向量量化（Vector Quantization）
 
-<center>$$d(x,\hat{x_i})=||x-\hat{x_i}||^2_2=$$</cenetr>
+<center>$$d(x,\hat{x_i})=||x-\hat{x}_i||^2_2=\sum_{n=1}^{N}{(x_n-\hat{x}_{i,n})^2}$$</cenetr>
 
 <center><img src=".\image\vq.png" height= "50%" width = "50%"></center>
 
